@@ -14,3 +14,4 @@ Repository for learning Python concepts
 - Strings
 - Tuples
 - Variables
+- SQL CRUD
