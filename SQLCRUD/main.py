@@ -24,29 +24,29 @@ def get_log(id):
         print(row)
         
 def update_log(id, text):
-    sql = ("UPDATE logs SET text = %s WHERE id = %s)")
+    sql = ("UPDATE logs SET text = %s WHERE id = %s")
     cursor.execute(sql, (text,id,))
     db.commit()
     print(f"Updated log {id}")
     
 def delete_log(id):
-    sql = ("DELETE FROM logs WHERE id = %s)")
+    sql = ("DELETE FROM logs WHERE id = %s")
     cursor.execute(sql, (id,))
     db.commit()
     print(f"Deleted log {id}")
     
     
-add_log("This is log one", "Bosko")
-add_log("This is log one", "Milica")
-add_log("This is log one", "John Doe1")
-add_log("This is log one", "John Doe2")
+#add_log("This is log one", "Bosko")
+# add_log("This is log one", "Milica")
+# add_log("This is log one", "John Doe1")
+# add_log("This is log one", "John Doe2")
 
-get_logs()
+# get_logs()
 
-get_log(2)
+# get_log(2)
 
-update_log(2, 'Updated log')
-get_logs()
+# update_log(2, 'Updated log')
+# get_logs()
 
-delete_log(2)
+# delete_log(2)
 get_logs()
