@@ -8,3 +8,5 @@ myenv/
 
 # sensitive
 config.py
+
+secrets.json
