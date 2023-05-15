@@ -15,3 +15,4 @@ Repository for learning Python concepts
 - Tuples
 - Variables
 - SQL CRUD
+- Libraries [speech_recognition, webbrowser, playsound, os, random, gTTS, mysql.connector]
