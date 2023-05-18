@@ -4,9 +4,10 @@ __pycache__/
 *$py.class
 
 # venv
-myenv/
+env
+myenv
 
 # sensitive
 config.py
-
 secrets.json
+.env

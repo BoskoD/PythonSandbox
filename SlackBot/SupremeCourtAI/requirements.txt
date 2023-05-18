@@ -1,0 +1,8 @@
+plotly
+scipy
+python-dotenv
+flask_executor
+slack_sdk
+openai
+numpy
+pandas
